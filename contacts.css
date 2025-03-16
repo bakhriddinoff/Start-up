@@ -208,15 +208,31 @@ footer {
     .img1 {
         width: 350px;
     }
+    .leftH {
+        width: 100%;
+        justify-content: center;
+    }
     form {
-        align-content:center ;      
+        width: 100%;
+        display: flex;
+        align-items:center;      
     }
     .input1 {
-        width: 200px;
+        width: 300px;
     }
     .input2 {
-        width: 200px;
+        width: 300px;
     }
+    .btn {
+        width: 300px;
+    }
+    .rightH {
+        width: unset;
+    }
+    .img1 {
+        width: 300px;
+    }
+    
     .footer-wrapper {
         display: flex;
         flex-direction: column;
