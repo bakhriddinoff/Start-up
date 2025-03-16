@@ -140,8 +140,6 @@ h1 {
 
 footer {
     background-color: #74C69D;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
 }
 
 .footer-wrapper {
@@ -149,7 +147,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    height: 120px;
 }
 
 .media-icons {
@@ -169,6 +167,10 @@ footer {
 .licence {
     color: white;
     font-size: 1.25rem;
+}
+
+a img:hover {
+    border-bottom: 3px solid blue;
 }
 
 
