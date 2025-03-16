@@ -232,7 +232,12 @@ footer {
     .img1 {
         width: 300px;
     }
-    
+    h1 {
+        font-size: 25px;
+    }
+    .text1 {
+        font-size: 15px;
+    }
     .footer-wrapper {
         display: flex;
         flex-direction: column;
