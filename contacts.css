@@ -165,8 +165,6 @@ form {
 
 footer {
     background-color: #74C69D;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
 }
 
 .footer-wrapper {
@@ -174,6 +172,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 120px;
 
 }
 
@@ -196,6 +195,9 @@ footer {
     font-size: 1.25rem;
 }
 
+img:hover {
+    border-bottom: 3px solid blue;
+}
 
 
 
@@ -238,13 +240,14 @@ footer {
     .text1 {
         font-size: 15px;
     }
+    .media-icons {
+        margin-top: 20px;
+    }
     .footer-wrapper {
         display: flex;
         flex-direction: column;
         gap: 30px;
         height: 100px;
     }
-    img:hover {
-        border-bottom: 3px solid blue;
-    }
+
 }
