@@ -121,8 +121,6 @@ form {
     height: 25px;
     background-color: rgb(238, 238, 238);
     border-radius: 5px;
-    outline: none;
-    box-shadow: none;
 }
 
 .input2 {
