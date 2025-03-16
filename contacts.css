@@ -220,12 +220,14 @@ footer {
     }
     .input2 {
         width: 300px;
+        height: 90px;
     }
     .btn {
         width: 300px;
     }
     .rightH {
         width: unset;
+        height: unset;
     }
     .img1 {
         width: 300px;
@@ -240,5 +242,9 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 30px;
+        height: 100px;
+    }
+    img:hover {
+        border-bottom: 3px solid blue;
     }
 }
