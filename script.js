@@ -1,40 +1,30 @@
-const openButton = document.getElementById('open-sidebar-button')
-const navbar = document.getElementById('navbar')
+let nav =document.getElementById("wrapnav");
 
-const media = window.matchMedia("(width < 700px)")
 
-media.addEventListener('change', (e) => updateNavbar(e))
+let openNav =document.getElementById("openn")
 
-function updateNavbar(e){
-  const isMobile = e.matches
-  console.log(isMobile)
-  if(isMobile){
-    navbar.setAttribute('inert', '')
-  }
-  else{
-    // desktop device
-    navbar.removeAttribute('inert')
-  }
-}
+let closeNav =document.getElementById("closess");
 
-function openSidebar(){
-  navbar.classList.add('show')
-  openButton.setAttribute('aria-expanded', 'true')
-  navbar.removeAttribute('inert')
-}
+openNav.addEventListener("click", function(){
+    openNav.style.display ="none";
+    nav.style.display ="flex";
 
-function closeSidebar(){
-  navbar.classList.remove('show')
-  openButton.setAttribute('aria-expanded', 'false')
-  navbar.setAttribute('inert', '')
-}
+    if(!document.querySelector(".login-btn")){
+        let login =document.createElement("a");
+        let loginTugma =document.createElement("button");
+        login.appendChild(loginTugma)
+        loginTugma.className ="login-btn";
+        loginTugma.textContent ="login";
+        nav.appendChild(login)
+    }
 
-// For Bookmark Links
-// const navLinks = document.querySelectorAll('nav a')
-// navLinks.forEach(link => {
-//   link.addEventListener('click', () => {
-//     closeSidebar()
-//   })
-// })
 
-updateNavbar(media)
+    closeNav.style.display ="block";
+
+})
+
+closeNav.addEventListener("click", function(){
+    nav.style.display ="none";
+    closeNav.style.display ="none";
+    openNav.style.display ="block";
+})
