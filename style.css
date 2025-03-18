@@ -494,5 +494,128 @@ a img:hover {
         justify-content: center;
         gap: 20px;
     }
+    .header-wrapper {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    nav, .header-wrapper {
+        display: none; 
+    }
+    nav {
+        display: none;
+    }
+    .hero-wrapper {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .hero-content {
+        width: 100%;
+    }
+    
+    .hero-image {
+        width: 100%;
+    }
+
+    .P-info {
+        flex-direction: column-reverse;
+    }
+    .info1-right {
+        width: 100%;
+    }
+    .info1-left {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        justify-content: center;
+        gap: 20px;
+    }
+    .header-wrapper {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    nav, .header-wrapper {
+        display: none; 
+    }
+    nav {
+        display: none;
+    }
+    .hero-wrapper {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .hero-content {
+        width: 100%;
+    }
+    
+    .hero-image {
+        width: 100%;
+    }
+
+    .P-info {
+        flex-direction: column-reverse;
+    }
+    .info1-right {
+        width: 100%;
+    }
+    .info1-left {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        justify-content: center;
+        gap: 20px;
+    }
+    .header-wrapper {
+        display: flex;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    nav, .header-wrapper {
+        display: none; 
+    }
+    nav {
+        display: none;
+    }
+    .hero-wrapper {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .hero-content {
+        width: 100%;
+    }
+    
+    .hero-image {
+        width: 100%;
+    }
+
+    .P-info {
+        flex-direction: column-reverse;
+    }
+    .info1-right {
+        width: 100%;
+    }
+    .info1-left {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        justify-content: center;
+        gap: 20px;
+    }
     
 }
