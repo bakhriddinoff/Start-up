@@ -1,30 +1,9 @@
-let nav =document.getElementById("wrapnav");
+const hamMenu = document.querySelector('.ham-menu');
 
+const offScreen = document.querySelector('.off-screen-menu');
 
-let openNav =document.getElementById("openn")
+hamMenu.addEventListener('click', () => {
+    hamMenu.classList.toggle('active');     
+    offScreen.classList.toggle('active');
+});
 
-let closeNav =document.getElementById("closess");
-
-openNav.addEventListener("click", function(){
-    openNav.style.display ="none";
-    nav.style.display ="flex";
-
-    if(!document.querySelector(".login-btn")){
-        let login =document.createElement("a");
-        let loginTugma =document.createElement("button");
-        login.appendChild(loginTugma)
-        loginTugma.className ="login-btn";
-        loginTugma.textContent ="login";
-        nav.appendChild(login)
-    }
-
-
-    closeNav.style.display ="block";
-
-})
-
-closeNav.addEventListener("click", function(){
-    nav.style.display ="none";
-    closeNav.style.display ="none";
-    openNav.style.display ="block";
-})
